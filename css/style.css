@@ -1,0 +1,103 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* My header section */
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+/* section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* nav title */
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+/* nav and ul style */
+nav > ul{
+    display: flex;
+}
+/* nav and li style */
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500px;
+    line-height: 26px;
+}
+/* nav and li and a */
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner contant style */
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+/* banner style */
+.banner-title{
+    font-size: 4em;
+    font-weight: 700px;
+    color: #131313;
+}
+/* banner description style */
+.banner-description{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* button style */
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    margin: 35px auto;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+/* banner image style */
+ img{
+    margin: 50px auto;
+    width: 100%;
+}
+
+
+
+
+
+
+/* rasponsiv style */
+@media screen and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
